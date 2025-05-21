@@ -1,0 +1,23 @@
+input:
+  type: pandas.ExcelDataset
+  filepath: data/01_input/input_priorizacao.xlsx
+
+parametros:
+  type: pandas.ExcelDataset
+  filepath: data/01_input/input_parametros.xlsx
+  
+ranking_bacias:
+  type: pandas.ExcelDataset
+  filepath: data/02_rankings/ranking_bacias.xlsx
+
+input_pre_processado:
+  type: pandas.ExcelDataset
+  filepath: data/03_raw/input_pre_processado.xlsx
+
+bacias_priorizadas:
+  type: pandas.ExcelDataset
+  filepath: data/04_final/bacias_priorizadas.xlsx
+
+dataset_resumo:
+  type: pandas.ExcelDataset
+  filepath: data/05_reporting/dataset_resumo.xlsx

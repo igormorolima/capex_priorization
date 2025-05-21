@@ -1,0 +1,8 @@
+# Taxa de desconto para o cálculo da VPL (data_processing)
+taxa_desconto: 0.1
+
+# As obras de Capex geralmente iniciam a partir do segundo ano (model_priorization)
+ano_inicio_capex: 2
+
+# Threshold de TIR para completar uma predecessora sem precisar repriorizar (model_priorization)
+threshold_tir: 0.2
